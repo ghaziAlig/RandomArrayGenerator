@@ -15,10 +15,6 @@ public class Array {
                 random.nextInt(100);
             }
         }
-//        System.out.print("\nGenerated array is:\t");
-//        for (int i : arr) {
-//            System.out.print(i + "\t");
-//        }
         return arr;
     }
 }

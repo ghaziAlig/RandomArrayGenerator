@@ -1,7 +1,8 @@
-import java.util.Random;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         Random random = new Random();
         Array arraycreator = new Array();
 
@@ -14,5 +15,14 @@ public class Main {
             System.out.print(value + "\t");
         }
         System.out.println();
+
+
+//      Do it again
+        System.out.println("\n\nDo you want to do it again?\nEnter 'Y' if yes, any other character if no.");
+        char ch = sc.next().charAt(0);
+        if (ch == ('y'|'Y')) {
+            main(null);
+        }
     }
+
 }
